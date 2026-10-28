@@ -1,0 +1,135 @@
+
+#portfolio-review{color-scheme:light dark;--paper:light-dark(#fafbfD,#17202d);--ink:light-dark(#1c304c,#e7edf7);--dim:light-dark(#52647a,#b8c7da);--blue:light-dark(#3159b4,#b0c6ff);--onblue:light-dark(#fff,#182c51);--soft:light-dark(#eaf0fb,#27364e);--warm:light-dark(#f3ede3,#383128);--rule:light-dark(#d9e1ec,#41506a);background:var(--paper);color:var(--ink);font:15px/1.7 Arial,sans-serif;padding:32px 40px}#portfolio-review *{box-sizing:border-box}#portfolio-review header{display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap;border-bottom:1px solid var(--rule);padding-bottom:22px}#portfolio-review .brand{font-size:18px;font-weight:600}#portfolio-review nav{display:flex;gap:6px;flex-wrap:wrap}#portfolio-review button{font:inherit;color:inherit;background:transparent;border:0;padding:8px 10px;border-radius:5px;font-size:12px}#portfolio-review button[aria-selected=true]{background:var(--soft);color:var(--blue)}#portfolio-review a{color:var(--blue);text-underline-offset:4px;overflow-wrap:anywhere}#portfolio-review .eyebrow{font-size:11px;letter-spacing:1.7px;text-transform:uppercase;color:var(--blue)}#portfolio-review h1{font-size:clamp(34px,5vw,52px);font-weight:700;line-height:1.1;letter-spacing:-1.8px;margin:18px 0 23px}#portfolio-review h2{font-size:25px;line-height:1.25;font-weight:500;margin:12px 0 18px}#portfolio-review h3{font-size:17px;font-weight:500;margin:0 0 9px}#portfolio-review p{margin:0 0 18px}#portfolio-review .hero{display:grid;grid-template-columns:1.5fr 1fr;gap:38px;align-items:center;padding:48px 0 38px}#portfolio-review .muted{color:var(--dim)}#portfolio-review .focus{background:var(--soft);padding:25px;border-radius:16px}#portfolio-review .focus h2{font:400 28px/1.25 Georgia,serif}#portfolio-review .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:19px}#portfolio-review .tags span{padding:4px 9px;border:1px solid var(--rule);border-radius:20px;font-size:11px}#portfolio-review .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}#portfolio-review .cta{display:inline-block;padding:11px 16px;background:var(--blue);color:var(--onblue);border-radius:5px;text-decoration:none;font-size:13px}#portfolio-review .secondary{background:transparent;border:1px solid var(--rule);color:var(--ink)}#portfolio-review .columns{display:grid;grid-template-columns:1fr 1fr;gap:30px;border-top:1px solid var(--rule);padding:28px 0}#portfolio-review .desk{background:var(--warm);padding:24px;border-radius:12px}#portfolio-review .row{border-top:1px solid var(--rule);padding:18px 0}#portfolio-review .small{font-size:12px;color:var(--dim)}#portfolio-review .page{padding:35px 0;min-height:560px}#portfolio-review .readable{max-width:700px}#portfolio-review .entry{padding:20px 0;border-bottom:1px solid var(--rule)}#portfolio-review .entry p{margin-bottom:9px}#portfolio-review details{margin-top:8px;font-size:12px;color:var(--dim)}#portfolio-review summary{color:var(--blue)}#portfolio-review footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px;padding-top:20px;border-top:1px solid var(--rule);font-size:12px;color:var(--dim)}#portfolio-review [hidden]{display:none!important}@media(max-width:620px){#portfolio-review{padding:24px}#portfolio-review .hero,#portfolio-review .columns{grid-template-columns:1fr;gap:24px}#portfolio-review .hero{padding-top:32px}#portfolio-review nav{gap:0}#portfolio-review button{padding:9px 7px}}
+
+html{color-scheme:light dark;background:light-dark(#fafbfd,#17202d)}body{margin:0}#portfolio-review{max-width:1120px;margin:auto;min-height:100vh}#portfolio-review .nav-link{padding:8px 10px;border-radius:5px;font-size:12px;color:var(--ink);text-decoration:none}#portfolio-review .nav-link[aria-current=page]{background:var(--soft);color:var(--blue)}#portfolio-review .cta{cursor:pointer}#portfolio-review button.cta{font-size:13px}#portfolio-review a:focus-visible{outline:3px solid var(--blue);outline-offset:4px}#portfolio-review .portrait{object-fit:cover;border-radius:50%;float:right;margin:0 0 20px 24px}#portfolio-review .page{min-height:560px}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:8px;background:white;color:black;padding:12px;z-index:10}#portfolio-review .entry ul{padding-left:22px}@media(max-width:620px){#portfolio-review .portrait{float:none;margin:0 0 20px}#portfolio-review .nav-link{padding:10px 7px}}/* Soft blue accents */
+#portfolio-review{--rule:light-dark(#cdddf0,#405774);--soft:light-dark(#e5effc,#263d59)}
+#portfolio-review .hero{background:linear-gradient(115deg,light-dark(#edf5ff,#203149),light-dark(#f7faff,#192537));border-radius:18px;margin:24px 0 32px;padding:32px 28px}
+#portfolio-review .focus{background:light-dark(#deebfc,#29405e)}
+#portfolio-review .page>.eyebrow{display:inline-block;background:light-dark(#e7f1ff,#243c59);padding:5px 10px;border-radius:5px}
+#portfolio-review #pr-projects>.entry:first-of-type{background:light-dark(#edf5ff,#21344c);padding:24px;border-radius:12px;border-bottom:0;margin-bottom:18px}
+#portfolio-review .nav-link:hover{background:light-dark(#edf4fe,#263b55)}
+#portfolio-review .columns{border-top-color:light-dark(#c4d9f3,#405f81)}
+@media(max-width:620px){#portfolio-review .hero{padding:24px 18px;margin-top:20px}}
+/* Stronger soft blue palette */
+html{background:light-dark(#deebfb,#15273d)}
+#portfolio-review{--paper:light-dark(#eaf2fd,#192d44);--soft:light-dark(#ccdef8,#2a4668);--rule:light-dark(#b5cdec,#46688c);background:var(--paper)}
+#portfolio-review header{background:light-dark(#d8e7fc,#213b59);padding:22px 24px;border-radius:14px;margin-bottom:22px}
+#portfolio-review .hero{background:linear-gradient(120deg,light-dark(#d2e4fc,#223d5c),light-dark(#e2edfc,#1c324d))}
+#portfolio-review .focus{background:light-dark(#bad3f5,#315276)}
+#portfolio-review .desk{background:light-dark(#d3e3f8,#29415e)}
+#portfolio-review .columns>section:not(.desk){background:light-dark(#e0ebfc,#213b58);padding:24px;border-radius:12px}
+#portfolio-review .page{background:light-dark(#f6f9ff,#1e334a);border-radius:16px;padding:28px;margin:24px 0}
+#portfolio-review .entry{background:light-dark(#e7f0fe,#253d58);padding:20px;border-radius:10px;margin:14px 0;border-bottom:0}
+#portfolio-review #pr-projects>.entry:first-of-type{background:light-dark(#cfE1fa,#2a496b)}
+#portfolio-review footer{background:light-dark(#d6e5f9,#233e5b);padding:22px;border-radius:12px}
+@media(max-width:620px){#portfolio-review header{padding:18px}#portfolio-review .page{padding:20px}#portfolio-review .entry{padding:18px}}
+
+#portfolio-review .home-intro{display:flex;gap:20px;align-items:center;margin-bottom:28px}#portfolio-review .home-intro img{width:110px;height:110px;object-fit:cover;border-radius:50%;border:4px solid light-dark(#f4f8ff,#45678a)}#portfolio-review .home-intro .intro-name{font-size:18px;font-weight:600;margin:0 0 5px}#portfolio-review .home-intro p.small{margin:0}@media(max-width:620px){#portfolio-review .home-intro{flex-direction:column;align-items:flex-start;gap:12px}}
+/* Preserve the full portrait rather than cropping it into a circle. */
+#portfolio-review .home-intro img{width:120px;height:auto;aspect-ratio:739/993;object-fit:contain;object-position:center;flex-shrink:0;border-radius:12px;display:block}
+#portfolio-review .home-intro{align-items:center}
+#portfolio-review .portrait{width:150px;height:auto;aspect-ratio:739/993;object-fit:contain;border-radius:12px}
+/* Lighter blue balance */
+html{background:light-dark(#edf3fc,#15273d)}
+#portfolio-review{--paper:light-dark(#f5f8fe,#192d44);--soft:light-dark(#e3edfb,#2a4668);--rule:light-dark(#c9d9ed,#46688c)}
+#portfolio-review header,#portfolio-review footer{background:light-dark(#e6effc,#233e5b)}
+#portfolio-review .hero{background:linear-gradient(120deg,light-dark(#e6effc,#223d5c),light-dark(#f1f6fd,#1c324d))}
+#portfolio-review .focus{background:light-dark(#d6e5f9,#315276)}
+#portfolio-review .desk{background:light-dark(#e3edfa,#29415e)}
+#portfolio-review .columns>section:not(.desk){background:light-dark(#edf3fd,#213b58)}
+#portfolio-review .entry{background:light-dark(#f0f5fd,#253d58)}
+#portfolio-review #pr-projects>.entry:first-of-type{background:light-dark(#e1ecfb,#2a496b)}
+/* Soft peach palette */
+html{background:light-dark(#fbf0e8,#2c221d)}
+#portfolio-review{--paper:light-dark(#fff9f4,#30251f);--ink:light-dark(#49362e,#f5e8df);--dim:light-dark(#715c50,#cfb9ab);--blue:light-dark(#914d30,#edb395);--onblue:light-dark(#fffaf6,#332219);--soft:light-dark(#f8e1d0,#51392c);--rule:light-dark(#e8ceba,#70503c);background:var(--paper)}
+#portfolio-review header,#portfolio-review footer{background:light-dark(#f7e5d7,#473125)}
+#portfolio-review .hero{background:linear-gradient(120deg,light-dark(#f9e7d9,#4b3427),light-dark(#fff4eb,#37281f))}
+#portfolio-review .focus{background:light-dark(#f3d6bf,#61402b)}
+#portfolio-review .desk{background:light-dark(#f7e1cf,#51392a)}
+#portfolio-review .columns>section:not(.desk){background:light-dark(#fbede1,#402e23)}
+#portfolio-review .page{background:light-dark(#fffaf6,#35271f)}
+#portfolio-review .page>.eyebrow{background:light-dark(#f7e0cd,#513a2a)}
+#portfolio-review .entry{background:light-dark(#fcf0e6,#432e22)}
+#portfolio-review #pr-projects>.entry:first-of-type{background:light-dark(#f8e1cf,#533722)}
+#portfolio-review .nav-link:hover{background:light-dark(#f9e7d8,#523a2a)}
+#portfolio-review .columns{border-top-color:var(--rule)}
+#portfolio-review .home-intro img{border-color:light-dark(#fff8f1,#805b43)}
+/* Soft sage palette */
+html{background:light-dark(#eaf0e7,#202a23)}
+#portfolio-review{--paper:light-dark(#f6f8f3,#253028);--ink:light-dark(#2d4033,#e8eee5);--dim:light-dark(#566857,#bacab9);--blue:light-dark(#42664b,#b7d4b4);--onblue:light-dark(#fbfdf8,#203023);--soft:light-dark(#dfe9d9,#3b523e);--rule:light-dark(#c6d5bf,#526c53);background:var(--paper)}
+#portfolio-review header,#portfolio-review footer{background:light-dark(#e1eadb,#324635)}
+#portfolio-review .hero{background:linear-gradient(120deg,light-dark(#e4eddd,#334936),light-dark(#f2f6ed,#29392b))}
+#portfolio-review .focus{background:light-dark(#d1dfc7,#425e43)}
+#portfolio-review .desk{background:light-dark(#dce8d5,#384f39)}
+#portfolio-review .columns>section:not(.desk){background:light-dark(#eaf1e3,#304332)}
+#portfolio-review .page{background:light-dark(#fafcf7,#29372b)}
+#portfolio-review .page>.eyebrow{background:light-dark(#e0ead8,#3b523c)}
+#portfolio-review .entry{background:light-dark(#edf3e7,#324734)}
+#portfolio-review #pr-projects>.entry:first-of-type{background:light-dark(#dee9d4,#3f593f)}
+#portfolio-review .nav-link:hover{background:light-dark(#e4eddd,#40583f)}
+#portfolio-review .columns{border-top-color:var(--rule)}
+#portfolio-review .home-intro img{border-color:light-dark(#f9fcf5,#688369)}
+/* Soft lavender palette */
+html{background:light-dark(#f0ebf7,#262230)}
+#portfolio-review{--paper:light-dark(#faf7fd,#2d2738);--ink:light-dark(#3d3450,#eee7f6);--dim:light-dark(#695c7b,#c8b9d8);--blue:light-dark(#70528e,#d0b8eb);--onblue:light-dark(#fffaff,#2d203a);--soft:light-dark(#e9dff4,#4a3a5e);--rule:light-dark(#d8c9e9,#6a527e);background:var(--paper)}
+#portfolio-review header,#portfolio-review footer{background:light-dark(#eae1f3,#40334f)}
+#portfolio-review .hero{background:linear-gradient(120deg,light-dark(#eee4f7,#443451),light-dark(#faf4fd,#33283d))}
+#portfolio-review .focus{background:light-dark(#dfd0ed,#58416e)}
+#portfolio-review .desk{background:light-dark(#e8daf3,#493650)}
+#portfolio-review .columns>section:not(.desk){background:light-dark(#f1e9f8,#3b2e46)}
+#portfolio-review .page{background:light-dark(#fdfaff,#32283b)}
+#portfolio-review .page>.eyebrow{background:light-dark(#eaddf4,#4a365b)}
+#portfolio-review .entry{background:light-dark(#f3ecfa,#403048)}
+#portfolio-review #pr-projects>.entry:first-of-type{background:light-dark(#e9dcf4,#51395f)}
+#portfolio-review .nav-link:hover{background:light-dark(#eee2f7,#4c385b)}
+#portfolio-review .columns{border-top-color:var(--rule)}
+#portfolio-review .home-intro img{border-color:light-dark(#fdf7ff,#806394)}
+
+/* Selected apricot palette */
+/* Soft peach palette */
+html{background:light-dark(#fbf0e8,#2c221d)}
+#portfolio-review{--paper:light-dark(#fff9f4,#30251f);--ink:light-dark(#49362e,#f5e8df);--dim:light-dark(#715c50,#cfb9ab);--blue:light-dark(#914d30,#edb395);--onblue:light-dark(#fffaf6,#332219);--soft:light-dark(#f8e1d0,#51392c);--rule:light-dark(#e8ceba,#70503c);background:var(--paper)}
+#portfolio-review header,#portfolio-review footer{background:light-dark(#f7e5d7,#473125)}
+#portfolio-review .hero{background:linear-gradient(120deg,light-dark(#f9e7d9,#4b3427),light-dark(#fff4eb,#37281f))}
+#portfolio-review .focus{background:light-dark(#f3d6bf,#61402b)}
+#portfolio-review .desk{background:light-dark(#f7e1cf,#51392a)}
+#portfolio-review .columns>section:not(.desk){background:light-dark(#fbede1,#402e23)}
+#portfolio-review .page{background:light-dark(#fffaf6,#35271f)}
+#portfolio-review .page>.eyebrow{background:light-dark(#f7e0cd,#513a2a)}
+#portfolio-review .entry{background:light-dark(#fcf0e6,#432e22)}
+#portfolio-review #pr-projects>.entry:first-of-type{background:light-dark(#f8e1cf,#533722)}
+#portfolio-review .nav-link:hover{background:light-dark(#f9e7d8,#523a2a)}
+#portfolio-review .columns{border-top-color:var(--rule)}
+#portfolio-review .home-intro img{border-color:light-dark(#fff8f1,#805b43)}
+/* Slightly lighter apricot */
+html{background:light-dark(#fcf5ef,#2c221d)}
+#portfolio-review{--paper:light-dark(#fffbf7,#30251f);--soft:light-dark(#faeadd,#51392c);--rule:light-dark(#ecd8c8,#70503c)}
+#portfolio-review header,#portfolio-review footer{background:light-dark(#faece1,#473125)}
+#portfolio-review .hero{background:linear-gradient(120deg,light-dark(#fbedE2,#4b3427),light-dark(#fff8f1,#37281f))}
+#portfolio-review .focus{background:light-dark(#f6e1d0,#61402b)}
+#portfolio-review .desk{background:light-dark(#f9e9dc,#51392a)}
+#portfolio-review .columns>section:not(.desk){background:light-dark(#fcf3eb,#402e23)}
+#portfolio-review .entry{background:light-dark(#fdf5ee,#432e22)}
+#portfolio-review #pr-projects>.entry:first-of-type{background:light-dark(#fae9db,#533722)}
+
+/* Clearer navigation with one primary name introduction. */
+#portfolio-review header{justify-content:center}#portfolio-review nav{justify-content:center;gap:8px}#portfolio-review .nav-link{font-size:15px;font-weight:500;padding:10px 12px}@media(max-width:620px){#portfolio-review .nav-link{font-size:14px;padding:10px 8px}#portfolio-review nav{gap:4px}}
+/* More readable supporting text throughout the portfolio. */
+#portfolio-review{font-size:16px;line-height:1.75}
+#portfolio-review .small{font-size:15px;line-height:1.65}
+#portfolio-review .eyebrow{font-size:13px;letter-spacing:1.25px}
+#portfolio-review .tags span{font-size:13px;padding:5px 10px}
+#portfolio-review details{font-size:15px;line-height:1.7}
+#portfolio-review footer{font-size:15px}
+#portfolio-review .cta,#portfolio-review button.cta{font-size:15px}
+#portfolio-review .home-intro .intro-name{font-size:20px}
+#portfolio-review .nav-link{font-size:16px}
+@media(max-width:620px){#portfolio-review .nav-link{font-size:15px}#portfolio-review .small{font-size:15px}#portfolio-review .eyebrow{font-size:13px}}
+
+/* Fit the research-desk note to its content. */
+#portfolio-review .desk{align-self:start;padding:22px}#portfolio-review .desk h2{margin-top:0}#portfolio-review .desk p:last-child{margin-bottom:0}
+/* Give the brief desk note less space than the news feed. */
+#portfolio-review #pr-home>.columns{grid-template-columns:minmax(230px,.7fr) minmax(0,1.6fr);align-items:start}
+#portfolio-review #pr-home .desk{padding:18px;align-self:start}
+#portfolio-review #pr-home .desk h2{font-size:21px;margin:0 0 10px}
+@media(max-width:620px){#portfolio-review #pr-home>.columns{grid-template-columns:1fr}}
