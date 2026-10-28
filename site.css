@@ -133,3 +133,6 @@ html{background:light-dark(#fcf5ef,#2c221d)}
 #portfolio-review #pr-home .desk{padding:18px;align-self:start}
 #portfolio-review #pr-home .desk h2{font-size:21px;margin:0 0 10px}
 @media(max-width:620px){#portfolio-review #pr-home>.columns{grid-template-columns:1fr}}
+
+/* Project images keep their complete composition. */
+#portfolio-review .project-visual{margin:18px 0 22px}#portfolio-review .project-visual img{display:block;width:auto;max-width:100%;height:auto;max-height:380px;object-fit:contain;border-radius:8px;background:#fff}#portfolio-review .project-visual.chart img{width:100%;max-height:none}#portfolio-review .project-visual figcaption{font-size:14px;line-height:1.6;color:var(--dim);margin-top:10px}#portfolio-review .project-visual a{display:block;width:fit-content;max-width:100%}@media(max-width:620px){#portfolio-review .project-visual img{max-height:320px}}
