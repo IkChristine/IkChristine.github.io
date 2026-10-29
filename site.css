@@ -139,3 +139,6 @@ html{background:light-dark(#fcf5ef,#2c221d)}
 
 /* Compact research tags and service summaries */
 .focus .tag-label{margin:20px 0 8px}.focus .tags{gap:8px;margin-top:0}.focus .tags span{background:rgba(255,255,255,.28);border:1px solid #dfc7b6;font-size:15px;padding:7px 11px}.service-summary{padding-left:22px;margin:16px 0 22px}.service-summary li{margin:0 0 14px;padding-left:3px}.service-summary li:last-child{margin-bottom:0}
+
+/* Consistent compact publication entries */
+#pr-pubs .entry{padding:16px 20px;margin:12px 0}#pr-pubs .entry p{margin:8px 0}#pr-pubs .entry .small{font-size:15px}#pr-pubs .entry a{font-size:17px}
