@@ -136,3 +136,6 @@ html{background:light-dark(#fcf5ef,#2c221d)}
 
 /* Project images keep their complete composition. */
 #portfolio-review .project-visual{margin:18px 0 22px}#portfolio-review .project-visual img{display:block;width:auto;max-width:100%;height:auto;max-height:380px;object-fit:contain;border-radius:8px;background:#fff}#portfolio-review .project-visual.chart img{width:100%;max-height:none}#portfolio-review .project-visual figcaption{font-size:14px;line-height:1.6;color:var(--dim);margin-top:10px}#portfolio-review .project-visual a{display:block;width:fit-content;max-width:100%}@media(max-width:620px){#portfolio-review .project-visual img{max-height:320px}}
+
+/* Compact research tags and service summaries */
+.focus .tag-label{margin:20px 0 8px}.focus .tags{gap:8px;margin-top:0}.focus .tags span{background:rgba(255,255,255,.28);border:1px solid #dfc7b6;font-size:15px;padding:7px 11px}.service-summary{padding-left:22px;margin:16px 0 22px}.service-summary li{margin:0 0 14px;padding-left:3px}.service-summary li:last-child{margin-bottom:0}
